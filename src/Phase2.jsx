@@ -86,11 +86,12 @@ export default function Phase2({ solId, userName, onBack, onProceed }) {
 
           {/* proceed to phase 3 */}
           <button
-            onClick={onProceed}
-            className="mt-4 bg-green-600 text-white px-4 py-2 rounded"
-          >
-            Proceed
-          </button>
+  onClick={() => onProceed(filteredAccounts)}
+  className="mt-4 bg-green-600 text-white px-4 py-2 rounded"
+>
+  Proceed
+</button>
+
         </div>
       )}
 
