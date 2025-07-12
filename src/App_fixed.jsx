@@ -36,8 +36,7 @@ function App() {
       {phase === 3 && (
         <Phase3
           accountData={cifData}
-          onBack={() => setPhase(2)}
-        />
+          onBack={() => setPhase(2)}        />
       )}
     </>
   );
